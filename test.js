@@ -1,25 +1,10 @@
-"use strict";
-//Object
-const obj = {
-    company : "Adecco"
-}
-
-//function
-function isEmptyObj(){
-    if(obj.title){
-        return true
-    } else{
-        return false
-    }
-}
-
-//call for fuction
-isEmptyObj();
-
-
-//ECMA script, new js
-const isNewEmptyObj = ()=> obj.title ? true :false;
-    //iternally operator
-
-
-    // $ node  > String.(options)
+'use strict';
+const animal = {
+  dog: 1,
+  cat: 2,
+  rabbit: 3,
+};
+const animalChecker = () => (1 ? true : false);
+console.log(animalChecker());
+const { dog, cat, rabbit } = animal;
+console.log(dog);
