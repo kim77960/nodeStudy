@@ -31,8 +31,8 @@ const { id } = a;
 
 console.log(id);
 
-// ()=>{}
+// ()=>{} 화살표 함수의 기본 형태
 
-todos.map(function({ text }) {
-  console.log(text);
-});
+// todos.map(function({ text }) {
+//   console.log(text);
+// }); //이것과 map이 같은 역할임
